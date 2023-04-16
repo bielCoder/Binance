@@ -1,0 +1,26 @@
+<header>
+    <div class="header-container-menu">
+        <div class="logo-image"></div>
+        <nav class="menu-navbar">
+            <ul class="menu-list">
+                <li><a href="">Home</a></li>
+                <li><a href="">Recursos</a></li>
+                <li><a href="">Benefícios</a></li>
+                <li><a href="">Preços</a></li>
+                <li class="login"><a href="">Entrar</a></li>
+            </ul>
+        </nav>
+         <!-- Mobile -->
+        <i class="bi bi-list" (click)="onShowHide()"></i>
+    </div>
+   <div class="container-menu-list-mobile" [class.show]="showHide">
+        <ul class="menu-list-mobile">
+            <a href=""><li>Home</li></a>
+            <a href=""><li>Recursos</li></a>
+            <a href=""><li>Benefícios</li></a>
+            <a href=""><li>Preços</li></a>
+            <a href=""><li class="login">Entrar</li></a>
+        </ul>
+   </div>
+
+</header>

@@ -1,0 +1,53 @@
+/* First Content Resource */
+.conatiner-content-resources {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding: 4em;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.class-information-content {
+    width: 40%;
+}
+
+
+.title-content {
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+.content {
+    font-size: .75em;
+}
+
+.btn-primary {
+    border-radius: .3em;
+}
+
+.image-container {
+    background-image: url('/assets/img/second.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain;
+    width: 500px;
+    height: 500px;    
+}
+
+/* Mobile */
+@media screen and (max-width:746px)
+{
+    .conatiner-content-resources {
+        position: absolute;
+        top: 444px;
+        left: 0px;
+        width: 100%;
+    }
+
+    .class-information-content {
+        width: 100%;
+        text-align: center;
+    }
+}
