@@ -97,9 +97,22 @@
 
     .show {
         transition: all .5s ease-in-out;
-        height: 100vh;
+        height: 80vh;
         overflow: visible;
     }
 
+    li.login{
+        color: var(--tertiary-color);
+        border: 1px solid var(--tertiary-color);
+        border-radius: .3em;
+    }
 
+    .menu-list-mobile li.login{
+        list-style: none;
+        color: var(--tertiary-color);
+        padding: .50em;
+        text-align: center;
+        font-size: .95em;
+        margin-bottom: .75em;
+    }
 }
